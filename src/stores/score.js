@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { defineStore } from "pinia";
 
 const baseLevelScore = 25;
@@ -52,3 +53,12 @@ export const useScoreStore = defineStore("score", {
         },
     },
 });
+=======
+import { defineStore } from 'pinia'
+
+export const useScoreStore = defineStore('score', {
+  state: () => ({
+    score: 0,
+  }),
+})
+>>>>>>> bd57318 (add template and styles)

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="progress">
         <h4 class="progress-level">
             <span>{{ store.currentScore }} / {{ store.level.value }}</span>
@@ -21,3 +22,15 @@ const store = useScoreStore();
 
 const progress = computed(() => (100 * store.currentScore) / store.level.value);
 </script>
+=======
+  <div class="progress">
+    <h4 class="progress-level">
+      <span>42/50</span>
+      <span>2</span>
+    </h4>
+    <div class="progress-container">
+      <div class="progress-value" style="width: 20%"></div>
+    </div>
+  </div>
+</template>
+>>>>>>> bd57318 (add template and styles)
